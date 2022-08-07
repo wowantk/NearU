@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlaceObject" representedClassName="PlaceObject" parentEntity="SignatureManagedObject" syncable="YES">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="long" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SignatureManagedObject" representedClassName="SignatureManagedObject" isAbstract="YES" syncable="YES">
+        <attribute name="date_created" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="date_modified" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="PlaceObject" positionX="-63" positionY="-18" width="211.06005859375" height="163"/>
+        <element name="SignatureManagedObject" positionX="-27.75604248046875" positionY="-120.4834289550781" width="128" height="73"/>
+    </elements>
+</model>
