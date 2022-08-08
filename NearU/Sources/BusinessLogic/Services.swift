@@ -25,7 +25,7 @@ final class Services {
         
         let paramService = ParamService(long: object.longtide, ling: object.latitude,name: object.placeName)
         
-        let task = AF.request("https://api.foursquare.com/v3/venues/search"
+        let task = AF.request("https://api.foursquare.com/v2/venues/search"
                               , method: .get, parameters: paramService.returnParam(), encoding: ArrayEncoding(), headers: nil, interceptor: nil, requestModifier: .none).response { (response) in
                                 
                                 let wrappedCompletion: (Bool, Location?,Error?) ->() = { (success, location,error) in
